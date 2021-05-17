@@ -1,0 +1,17 @@
+{
+  "name": "foodblog-api",
+  "version": "0.0.1",
+  "description": "an api to hold users and posts for a blog site",
+  "main": "server.js",
+  "author": "Erin Carver <agcarvr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.9"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  }
+}
