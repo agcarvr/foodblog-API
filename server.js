@@ -27,6 +27,7 @@ mongoose.connection.once('connected', () => console.log('Connected to mongodb'))
 
 
 app.use('/posts', require('./controllers/postsController'));
+app.use('/users', require("./controllers/usersController"));
 
 app.post('/login', (req, res) => {
     const {username, password} = req.body;
