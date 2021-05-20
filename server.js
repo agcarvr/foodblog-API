@@ -20,7 +20,8 @@ mongoose.connect(process.env.MONGO_URI, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
     useCreateIndex: true,
-    useFindAndModify: true
+    useFindAndModify: true,
+    connectTimeoutMS: 3000
 });
 
 mongoose.connection.once('connected', () => console.log('Connected to mongodb'));
