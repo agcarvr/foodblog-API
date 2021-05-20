@@ -1,6 +1,6 @@
 {
   "name": "foodblog-api",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "an api to hold users and posts for a blog site",
   "main": "server.js",
   "author": "Erin Carver <agcarvr@gmail.com>",
@@ -13,6 +13,13 @@
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.9"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "engines": {
+    "node": "10.19.0"
   },
   "scripts": {
     "start": "node server.js",
