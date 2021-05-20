@@ -20,12 +20,15 @@ mongoose.connect(process.env.MONGO_URI, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
     useCreateIndex: true,
-    useFindAndModify: true,
-    connectTimeoutMS: 3000
-});
-
-mongoose.connection.once('connected', () => console.log('Connected to mongodb'));
-
+    useFindAndModify: false,
+    connectTimeoutMS: 3000  //<--ADD THIS
+},(err, res)=>{
+    try{
+        console.log("Mongo is Connected")
+    } catch(err) {
+        console.log(err)
+    }
+})
 
 app.use('/posts', require('./controllers/postsController'));
 app.use('/users', require("./controllers/usersController"));
