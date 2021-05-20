@@ -5,7 +5,8 @@ const postSchema = new Schema({
     body: String,
     dish: { type: String, required: true },
     cuisine: { type: String, required: true },
-    summary: String
+    summary: String,
+    rating: Number
 })
 
 module.exports = model('Post', postSchema);
