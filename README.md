@@ -4,8 +4,8 @@
 This API was made with a MongoDB database and express framework for a <a href="https://github.com/agcarvr/eating-in-colorado" target="_blank">Food blog that I made</a>. The objective of this API is to securely post my experiences with restaraunts in Colorado.
 
 ## Planned Updates
-* Google Translate API for non-english readers
-* filter by cuisine type on the front end
+* Authorization to become authorized
+* Image Alt Text in posts
 
 ## Technologies Used
 * MongoDB
