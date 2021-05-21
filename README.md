@@ -6,6 +6,7 @@ This API was made with a MongoDB database and express framework for a <a href="h
 ## Planned Updates
 * Authorization to become authorized
 * Image Alt Text in posts
+* likes and comments from users to posts
 
 ## Technologies Used
 * MongoDB
