@@ -14,6 +14,8 @@ This API was made with a MongoDB database and express framework for a <a href="h
 * NodeJS
 * Git
 * Heroku
+* jsonwebtoken
+* dotenv
 
 ## Contributing
 Any pull requests are welcome!
