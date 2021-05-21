@@ -1,5 +1,33 @@
-# foodblog-API
+# Eating In Colorado API
 
-## Purpose
+## Description
+This API was made with a MongoDB database and express framework for a <a href="https://github.com/agcarvr/eating-in-colorado" target="_blank">Food blog that I made</a>. The objective of this API is to securely post my experiences with restaraunts in Colorado.
 
-This API is for a foodie blog I am making with the MERN stack. This API is not meant to be used for anything other than my website.
+## Planned Updates
+* Google Translate API for non-english readers
+* filter by cuisine type on the front end
+
+## Technologies Used
+* MongoDB
+* Express
+* NodeJS
+* Git
+* Heroku
+
+## Contributing
+Any pull requests are welcome!
+
+When requesting a pull, please state:
+* What you added.
+* The expected behavior.
+* bugs found that were fixed.
+* bugs found/created that are unfixed.
+
+## Steps to Start Working With This Version
+
+* Fork from this page to your own github account.
+* Press the 'code' button and copy the https link to your clipboard
+* Clone the repository to your local machine, using the command 'git clone >Paste Link From Clipboard<
+* Code as usual in your text editor (you may need to install some dependencies, such as node modules)
+* When you are ready, use command 'git push origin main' to put your changes on github
+* If you would like to make a pull request, see the above requirements to make one
